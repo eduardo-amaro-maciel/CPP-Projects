@@ -3,10 +3,10 @@
 /* Dependendo da forma que for arquitetado poderá     */
 /* gerar alguns erros e problemas durante a execução  */
 
-/* By: Eduardo Amaro Maciel							  */
-/* Date: 29/03/2021									  */
-/* Email: eduardo.am@protonmail.com					  */
-/* Disciplina: Sistemas Operacionais				  */
+/* By: Eduardo Amaro Maciel			      */
+/* Date: 29/03/2021				      */
+/* Email: eduardo.am@protonmail.com		      */
+/* Disciplina: Sistemas Operacionais		      */
 
 
 #include <iostream>
@@ -28,7 +28,7 @@ const int total = 5000;
 
 void Thread1(int n)
 {
-	/* Cria a thread 1 para fazer a multiprogramação	    */
+	/* Cria a thread 1 para fazer a multiprogramação	*/
 	/* :param n: determinar um tempo de 'pausa' da thread	*/
 
 
