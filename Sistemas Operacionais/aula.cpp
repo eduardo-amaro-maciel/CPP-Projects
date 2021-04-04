@@ -25,11 +25,13 @@ std::mutex m1;
 
 void Thread1() 
 {
+	m1.lock()
 	while (transacoes < total)
 	{
 		transacoes++;
 		saldo += 10;
 	}
+	m1.unlock()
 }
 
 
